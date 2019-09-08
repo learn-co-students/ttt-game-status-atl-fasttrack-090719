@@ -1,6 +1,6 @@
-tags:
-  - tic-tac-toe
-  - lab
-languages:
-  - ruby
-resources: 0
+full_board = ["X", "O", "X", "O", "X", "X", "O", "X", "O"]
+full?(full_board) #=> true
+ 
+incomplete_board = ["X", " ", "X", "O", " ", "X", "O", " ", "O"]
+full?(incomplete_board) #=> false
+
